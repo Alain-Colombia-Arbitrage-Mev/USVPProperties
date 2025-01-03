@@ -350,9 +350,13 @@ header.nav-homepage-style.light-header .ace-responsive-menu a {
             -ms-flex-direction: row;
             flex-direction: row;
             width: 55px;
+            justify-content: center;
         }
     }
+
+    
 }
+
 
 .hero-large-home5 {
     .swiper {

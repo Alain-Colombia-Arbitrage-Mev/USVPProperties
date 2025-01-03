@@ -17,7 +17,7 @@ import Link from "next/link";
 import PopulerProperty from "@/components/home/home-v1/PopulerProperty";
 
 export const metadata = {
-  title: "Home v1 || Homez - Real Estate NextJS Template",
+  title: "USVP RWA Backend in real state",
 };
 
 const Home_V1 = () => {
@@ -67,13 +67,14 @@ const Home_V1 = () => {
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
-                <h2 className="title">Explore Apartment Types</h2>
+                <h2 className="title"> Explora los tipos de propiedades</h2>
                 <p className="paragraph">
-                  Get some Inspirations from 1800+ skills
+                  Contamos con mas de 200 propiedades de lujo
                 </p>
               </div>
             </div>
             {/* End header */}
+
 
             <div className="col-auto mb30">
               <div className="row align-items-center justify-content-center">
@@ -100,11 +101,11 @@ const Home_V1 = () => {
             {/* End .col for navigation and pagination */}
           </div>
           {/* End .row */}
-
-          <div className="row">
-            <div className="col-lg-12">
+      
+          <div className="row justify-content-center">
+          <div className="col-lg-12 text-center">
               <div
-                className="explore-apartment-slider"
+                className="explore-apartment-slider w-100 "
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
@@ -128,7 +129,8 @@ const Home_V1 = () => {
               <div className="main-title text-center">
                 <h2 className="title">See How Realton Can Help</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Somos un fondo inmobiliario, especialista en inversiones de alto impacto
+                
                 </p>
               </div>
             </div>
@@ -145,8 +147,8 @@ const Home_V1 = () => {
       {/* Featured Listings */}
       <section className="bgc-f7">
         <div className="container">
-          <div className="row align-items-center" data-aos="fade-up">
-            <div className="col-lg-9">
+          <div className="row align-items-center  justify-content-center" data-aos="fade-up">
+          <div className="col-lg-9 text-center text-lg-start">
               <div className="main-title2">
                 <h2 className="title">Discover Our Featured Listings</h2>
                 <p className="paragraph">
@@ -155,7 +157,7 @@ const Home_V1 = () => {
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="text-start text-lg-end mb-3">
+            <div className="col-lg-3 text-center text-lg-end mb-3">
                 <Link className="ud-btn2" href="/grid-full-3-col">
                   See All Properties
                   <i className="fal fa-arrow-right-long" />
@@ -165,9 +167,9 @@ const Home_V1 = () => {
           </div>
           {/* End header */}
 
-          <div className="row">
+          <div className="row justify-content-center">
             <div className="col-lg-12" data-aos="fade-up" data-aos-delay="200">
-              <div className="feature-listing-slider">
+            <div className="feature-listing-slider text-center">
                 <FeaturedListings />
               </div>
             </div>

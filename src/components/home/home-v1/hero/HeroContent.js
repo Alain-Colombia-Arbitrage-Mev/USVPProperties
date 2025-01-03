@@ -12,8 +12,8 @@ const HeroContent = () => {
 
   const tabs = [
     { id: "buy", label: "Buy" },
-    { id: "rent", label: "Rent" },
-    { id: "sold", label: "Sold" },
+    //{ id: "rent", label: "Rent" },
+   // { id: "sold", label: "Sold" },
   ];
 
   return (
@@ -48,7 +48,7 @@ const HeroContent = () => {
                           className="form-control bgc-f7 bdrs12"
                           type="text"
                           name="search"
-                          placeholder={`Enter an address, neighborhood, city, or ZIP code for ${tab.label}`}
+                          placeholder={`Ingresa  la dirección de tu lugar soñado `}
                         />
                       </div>
                     </form>

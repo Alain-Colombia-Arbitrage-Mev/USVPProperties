@@ -18,6 +18,18 @@
 .swiper--pagination .swiper-pagination-bullet-active {
     transform: scale(1);
 }
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+    justify-content: center;
+}
+
 // arrow y center
 .arrowY-center-position {
     position: absolute;
@@ -61,6 +73,8 @@
         }
     }
 }
+
+
 
 .arrow-with-border {
     .swiper_button {
