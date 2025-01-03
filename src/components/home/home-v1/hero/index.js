@@ -5,10 +5,10 @@ const Hero = () => {
   return (
     <>
       <div className="inner-banner-style1 text-center">
-        <h6 className="hero-sub-title animate-up-1"> La mejor Forma para</h6>
+        <h3 className="hero-text  animate-up-1" style={{ fontSize: '18px',color: 'white' }} >  <strong>  La mejor forma para </strong></h3> 
         <h2 className="hero-title animate-up-2">Invertir en la casa de tus sueños</h2>
-        <p className="hero-text fz15 animate-up-3">
-          Fondo de inversión &amp;  RWA de bienes raices de lujo
+        <p className="hero-text fz22  animate-up-3" style={{ fontSize: '18px',color: 'black' }} >
+            <strong> Fondo de inversión &amp;  RWA de bienes raices de lujo </strong> 
         </p>
         <HeroContent />
       </div>

@@ -34,6 +34,13 @@ const Home_V1 = () => {
       {/* Home Banner Style V1 */}
       <section className="home-banner-style1 p0">
         <div className="home-style1">
+        <video autoPlay loop muted playsInline className="background-video">
+        <source src="../images/background/2.mp4" type="video/mp4"/>
+      {/* Puedes añadir más fuentes para otros formatos, como WebM */}
+      {/* <source src="ruta/al/video.webm" type="video/webm"/> */}
+      Tu navegador no soporta el tag video.
+    </video>
+    <div className="video-overlay"></div>
           <div className="container">
             <div className="row">
               <div className="col-xl-11 mx-auto">
