@@ -11,7 +11,7 @@ async function userLogged (request) {
 const userRole = {
   'USER': 'USER',
   'ADMIN': 'ADMIN',
-  // 'SUBADMIN': 'SUBADMIN'
+  // 'SUBADMIN': 'SUBADMIN'  sss
 }
 
 export async function middleware(request) {
